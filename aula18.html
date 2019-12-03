@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+
+<body>
+    <h1>Meu primeiro javascript</h1>
+    <p>JavaScript pode alterar elementos html:</p>
+    <button type="button" onclick="myFunction()">Clique aqui!</button>
+    <p id="demo">Uma demonstração.</p>
+    <input type="text" id="meucampo">
+    <script>
+        function myFunction() {
+            // alert("Minha função");
+            console.log("outro conteudo");
+            console.log(document.getElementById("meucampo").value);
+            document.getElementById("demo").innerHTML="<span style='background-color:blue;'>Hello JavaScrit!</span>";
+        }
+    </script>
+</body>
+
+</html>
